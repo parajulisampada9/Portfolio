@@ -20,7 +20,7 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>Project Overview</h1>
-						<p>Ipsum dolor sit amet nullam</p>
+						<p>Planning and Implementation</p>
 					</header>
 
 				<!-- Main -->
@@ -29,8 +29,9 @@
 						<!-- Content -->
 							<section id="content" class="main">
 								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
-								<h2>Magna feugiat lorem</h2>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+								<h2> AWS Honeypot</h2>
+								<p> This project will leverage AWS to demonstrate how to effectively secure cloud environments using industry-standard tools and procedures. We will need an AWS account and an EC2 instance to carry out the operation. Services such as Virtual Private Cloud (VPC) will be used to create a virtual network, and Security Groups will be used to route traffic to expose the server to the internet. Outbound traffic restrictions will be applied to prevent external interference and further attacks. Once we begin gathering data, we will use a Python script to push the logs to an S3 bucket, which will trigger AWS Lambda, which will parse the logs to extract metadata. From there, we will write the parsed data to  AWS DynamoDB and a tool like Streamlit to provide a visual dashboard that displays some of the key information that we have gathered. Tools like CloudTrail, Cloudbridge, and AWS Health will also be considered for effective logging and alert mechanisms depending on the scope of the project. 
+The cloud environment will operate for approximately a week. The defense mechanism of the honeypot system will be deliberately weak to lure in attackers.  Decoy files will be used instead of legit sensitive files as an incentive for the attackers to infiltrate the system. These files will not contain malware or anything similar. They are not designed to harm the attackers, just to make the honeypot environment more believable and realistic. The environment will operate in a VPC (Virtual Private Cloud) and any attempt to get access to the private network will be recorded. During the set time period, the logs will be consistently monitored to detect anything out of normal. Once an attack is discovered, logs will be analyzed to identify the attacker’s metadata.  </p>
 								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
 								<h2>Tempus veroeros</h2>
 								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
